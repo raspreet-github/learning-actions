@@ -38,7 +38,7 @@ jobs:
           pwd
           echo "Listing the files..."
           ls -lrta
-          echo "Navigating one level down..."
-          cd .github/
+          echo "Navigating 3 levels down..."
+          cd .github/workflows/scripts/
           echo "Listing the files again..."
           ls -lrta
