@@ -18,4 +18,4 @@ jobs:
           echo "Listing the contents..."
           ls -lrt
           echo "Executing Script..."
-          sh ./scripts/myFirstActionScript.sh
+          #sh ./scripts/myFirstActionScript.sh
