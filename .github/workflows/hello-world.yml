@@ -7,4 +7,7 @@ jobs:
       - name: my-step
         run: |
           echo "Hello World!"
-          echo date
+          echo "What's the present working directory ?"
+          ls -lrt
+          echo "What's the version of Java on the server ?"
+          java -version
