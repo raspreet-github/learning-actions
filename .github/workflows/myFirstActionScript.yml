@@ -4,6 +4,13 @@ jobs:
   my-job:
     runs-on: ubuntu-latest
     steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Execute Custom Script
+        working-directory: /home/runner/work/learning-actions/learning-actions/.github/workflows
+        
       - name: Run a multi-line script
         run: |
           echo "Where I am right now"
