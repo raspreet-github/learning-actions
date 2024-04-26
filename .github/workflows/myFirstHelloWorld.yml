@@ -37,4 +37,8 @@ jobs:
           echo "What's my Present Working Directory ?"
           pwd
           echo "Listing the files..."
-          ls -lrt
+          ls -lrta
+          echo "Navigating one level down..."
+          cd .github/
+          echo "Listing the files again..."
+          ls -lrta
